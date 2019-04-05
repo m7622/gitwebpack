@@ -4,7 +4,9 @@
   "description": "BEM2",
   "main": "index.js",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.15.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

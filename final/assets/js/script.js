@@ -1,4 +1,8 @@
+import b from '../images/bird.jpg';
+import s from '../images/squirrel.jpg';
 
+$('#bird').attr("src",b);
+$('#squirrel').attr("src",s);
 
 $(document).ready(function () {
 	// when a hanburger menu is clicked

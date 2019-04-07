@@ -1,9 +1,11 @@
+@import "../css/normalize.css"; 
 @import "../css/base.css";
 @import "../css/content.css";
 @import "../css/footer.css";
 @import "../css/grid.css";
 @import "../css/header.css";
 @import "../css/nav.css"; 
+
 @font-face {
 	font-family: 'PTSans';
 	src: 	url('fonts/PT-Sans.eot');

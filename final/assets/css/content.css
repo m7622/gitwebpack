@@ -1,15 +1,18 @@
 .content-area {
 	background-color: #FFF;
 	padding-bottom: 40px;
-    padding-top: 20px;
-    @media (min-width: 767px){
-        padding-top: 40px;
-    }
-
+	padding-top: 20px;
+	@media (min-width: 767px) {
+		padding-top: 40px;
+	}
 }
-
-
-
+/*
+@media screen and (min-width: 767px) {
+	.content-area {
+		padding-top: 40px;
+	}
+}
+*/
 @media screen and (min-width: 1023px) {
 	.main-area {
 		padding-right: 40px;
@@ -19,13 +22,12 @@
 
 .sidebar {
 	color: #999;
-    font-size: 85%;
-    h3 {
-        font-size: 138.5%;
-        margin-bottom: 7px;
-    }
+	font-size: 85%;
+	.h3 {
+		font-size: 138.5%;
+		margin-bottom: 7px;
+	}
 }
-
 
 .info-box {
 	background-color: #efeedb;
@@ -38,9 +40,8 @@
 	background-color: #e7eff5;
 	padding: 20px 20px 0 20px;
 	border: 2px solid #d3dee7;
-    margin-bottom: 15px;
-    @media (min-width: 767px){
-        margin-bottom: 30px;
-    }
+	margin-bottom: 15px;
+	@media (min-width: 767px) {
+		margin-bottom: 30px;
+	}
 }
-
